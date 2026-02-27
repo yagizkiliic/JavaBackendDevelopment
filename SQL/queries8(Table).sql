@@ -2,12 +2,12 @@
 
 --test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 
---create table employee (
---	id integer,
---	name VARCHAR(50),
---	birthday DATE,
---	email VARCHAR(100)
---);
+create table employee (
+	id integer,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100)
+);
 
 
 --Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
@@ -111,22 +111,3 @@ WHERE birthday = '1974-08-03';
 
 select * from employee
 order by id ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
